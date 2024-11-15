@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/basicr.css">
+    </head>
+    <body>
+     <section>
+        <div class="form-box">
+            <form action="/register" method="post">
+            
+                <h2>Register</h2>
+                <div class="input-box">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" name="user_name" required>
+                    <label for="">Full Name</label>
+                </div>
+                <div class="input-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" name="user_email" required>
+                    <label for="">Email Address</label>
+                </div>
+                <div class="input-box">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" name="user_password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="input-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <input type="text" name="user_address" required>
+                    <label for="">Address</label>
+                </div>
+                <div class="input-box">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <input type="tel" name="user_contact" required>
+                    <label for="">Mobile No</label>
+                </div>
+                <button>Register</button>
+                <h6>Already a user <a href="Login.html">Login</a></h6>
+            </form>
+        </div>
+     </section>
+
+
+
+
+
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
